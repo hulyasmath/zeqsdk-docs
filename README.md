@@ -1,19 +1,29 @@
 # zeqsdk-docs
 
-Source + live snapshot of **https://zeq.dev/sdk/** (Zeq SDK Docusaurus site).
+Private source + live snapshot of **https://zeq.dev/sdk/** — the Zeq SDK Docusaurus site.
 
 ## Layout
 
-- `source/` — Docusaurus project (`docusaurus.config.ts`, `sidebars.ts`, `docs/`, `src/`, `static/`, `scripts/`). Run `npm install && npm run build` here to rebuild.
-- `vps-live/` — exact rsync snapshot of `/var/www/zeqsdk-docs/` on `135.181.76.66` as of 2026-04-08, including in-place fixes (kernel-copy widget patch, mobile-sidebar fix, cache-busts).
+- **`source/`** — editable Docusaurus project. Source of truth for every SDK page.
+  - `docusaurus.config.ts`, `sidebars.ts`, `package.json`, `tsconfig.json`
+  - `docs/` — 404 markdown files (learn, guides, protocols, reference, concepts, api-reference, getting-started, sdk, operate, core-concepts, changelog)
+  - `src/`, `static/`, `scripts/`
+- **`vps-live/`** — point-in-time rsync snapshot of `/var/www/zeqsdk-docs/` on `135.181.76.66`. Contains the rendered HTML + all in-place runtime fixes (kernel-copy widget patch, mobile-sidebar fix, cache-busted script tags). Useful for diffing against future rebuilds.
 
-## Build
+## Build locally
 
-    cd source
-    npm install
-    npm run build         # outputs to source/build/
-    rsync -a build/ root@135.181.76.66:/var/www/zeqsdk-docs/
+    cd source && npm install && npm run build
 
-## Known gaps in this initial import
+## Deploy to VPS
 
-78 markdown files in `source/docs/` (under `learn/concepts/`, `guides/`, `reference/operators/`) failed to copy from the local Mac source — every read attempt hangs indefinitely. Suspected cause: filesystem lock or iCloud Drive placeholder. The fully-rendered HTML for all of them is in `vps-live/` so the live site is unaffected; recovery from `vps-live` HTML or a fresh Finder download is the next step.
+    cd source && npm run build
+    rsync -az --delete build/ root@135.181.76.66:/var/www/zeqsdk-docs/
+
+## Current Docusaurus flags (future edits)
+
+- `colorMode.disableSwitch: true` — light/dark toggle currently OFF
+- `i18n.locales: ['en']` — only English configured
+
+## Notes
+
+In-place VPS edits made before this import are preserved in `vps-live/` and should be folded back into `source/` before the next rebuild so the source generates a matching output.
