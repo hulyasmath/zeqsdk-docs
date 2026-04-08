@@ -1,0 +1,12 @@
+{
+  "label": "Power grids, solar, fusion",
+  "position": 25,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "Power grids, solar, fusion",
+    "description": "11 Zeq protocols in the Power grids, solar, fusion family.",
+    "slug": "/protocols/power-grids-solar-fusion"
+  }
+}

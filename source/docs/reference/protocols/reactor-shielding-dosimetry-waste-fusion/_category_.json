@@ -1,0 +1,12 @@
+{
+  "label": "Reactor, Shielding, Dosimetry, Waste, Fusion",
+  "position": 30,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "Reactor, Shielding, Dosimetry, Waste, Fusion",
+    "description": "5 Zeq protocols in the Reactor, Shielding, Dosimetry, Waste, Fusion family.",
+    "slug": "/protocols/reactor-shielding-dosimetry-waste-fusion"
+  }
+}

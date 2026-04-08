@@ -1,0 +1,12 @@
+{
+  "label": "Seismic, Volcano, Hydrology, Mining, Surveying",
+  "position": 33,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "Seismic, Volcano, Hydrology, Mining, Surveying",
+    "description": "5 Zeq protocols in the Seismic, Volcano, Hydrology, Mining, Surveying family.",
+    "slug": "/protocols/seismic-volcano-hydrology-mining-surveying"
+  }
+}

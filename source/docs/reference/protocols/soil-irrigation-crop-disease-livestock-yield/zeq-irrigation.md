@@ -1,0 +1,385 @@
+---
+sidebar_position: 2
+title: "ZeqIrrigation"
+description: "Precision irrigation scheduling. Penman-Monteith ET₀ with R(t) solar radiation modulation, soil water balance, deficit irrigation strategies for water conservation."
+---
+
+# ZeqIrrigation
+
+> Precision irrigation scheduling. Penman-Monteith ET₀ with R(t) solar radiation modulation, soil water balance, deficit irrigation strategies for water conservation.
+
+| | |
+|---|---|
+| **Protocol ID** | `zeq-irrigation` |
+| **Category** | Soil, Irrigation, Crop Disease, Livestock, Yield |
+| **Version** | 1.287.0 |
+| **Endpoint** | `/api/agri/irrigation` 🔵 POST |
+| **Authentication** | Required (Bearer API key) |
+| **Rate Limit** | 15/min |
+
+## Purpose
+
+Precision irrigation scheduling. Penman-Monteith ET₀ with R(t) solar radiation modulation, soil water balance, deficit irrigation strategies for water conservation. It belongs to the **Soil, Irrigation, Crop Disease, Livestock, Yield** family and is callable as a single REST endpoint, a one-line SDK call, or via streaming where applicable.
+
+## What it does
+
+When you call `/api/agri/irrigation`, Zeq runs the **ZeqIrrigation** computation through the KO42 metric tensioner under the active HulyaPulse phase. The result is sealed at the next Zeqond boundary (0.777 s) and returned with a verifiable ZeqProof receipt — meaning the same inputs at the same phase always produce the same output, and any third party can later verify the result was computed at the time you claim.
+
+In practice, this protocol takes the parameters listed below, performs its soil, irrigation, crop disease, livestock, yield operation, and returns a structured response containing the computation output plus phase-locking metadata (`zeqondTick`, `hulyaPhase`, `zeqProof`).
+
+## When to use it
+
+Reach for **ZeqIrrigation** when you need a soil, irrigation, crop disease, livestock, yield primitive that:
+
+- **Must be reproducible** — every call is deterministic for a given phase
+- **Must be auditable** — every response carries a tamper-evident ZeqProof receipt
+- **Must compose with other Zeq protocols** — outputs are phase-aligned to 1.287 Hz so they slot directly into downstream calls without resync
+- **Must scale across domains** — the same endpoint works whether you're driving one call per minute or part of a high-throughput pipeline (subject to rate limit 15/min)
+
+If you only need a one-shot soil, irrigation, crop disease, livestock, yield answer with no audit trail and no composition with other Zeq calls, a plain library may be cheaper. If you need *any* of the four properties above, this protocol is the right tool.
+
+## How to call it
+
+The fastest path is a single HTTPS `POST` request to `/api/agri/irrigation` with a Bearer token. You can use cURL, JavaScript, Python, or any HTTP client — examples for all three are below. The response is JSON.
+
+## Parameters
+
+| Name | Type | Required | Description |
+|------|------|----------|-------------|
+| `fieldArea_ha` | `number` | Yes | Field area in hectares. |
+| `cropType` | `string` | Yes | Crop for water requirement lookup. |
+| `soilMoisture_pct` | `number` | No | Current soil moisture. |
+| `weatherForecast` | `object` | No | Next 7 days forecast. |
+
+## Returns
+
+```
+{ irrigationSchedule, waterNeeded_mm, et0_mm_day, savingsVsFlood_pct, zeqond }
+```
+
+## How to call it — every language
+
+Every Zeq endpoint is a plain HTTPS `POST`. That means you can call it from **any** language that speaks HTTP. Below: thirteen working snippets — pick whichever fits your stack.
+
+### Command line (curl)
+
+```bash
+curl -X POST \
+  https://www.zeq.dev/api/agri/irrigation \
+  -H "Authorization: Bearer $ZEQ_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{
+  "fieldArea_ha": 1,
+  "cropType": "<cropType>",
+  "soilMoisture_pct": 1,
+  "weatherForecast": "<weatherForecast>"
+}'
+```
+
+### JavaScript (browser / Node)
+
+```javascript
+const res = await fetch("https://www.zeq.dev/api/agri/irrigation", {
+  method: "POST",
+  headers: {
+    "Authorization": `Bearer ${process.env.ZEQ_API_KEY}`,
+    "Content-Type": "application/json",
+  },
+  body: JSON.stringify({
+  "fieldArea_ha": 1,
+  "cropType": "<cropType>",
+  "soilMoisture_pct": 1,
+  "weatherForecast": "<weatherForecast>"
+}),
+});
+const data = await res.json();
+console.log(data);
+```
+
+### TypeScript
+
+```typescript
+interface ZeqResponse<T = unknown> {
+  ok: boolean;
+  result: T;
+  zeqondTick: number;
+  hulyaPhase: number;
+  zeqProof: string;
+}
+
+const res = await fetch("https://www.zeq.dev/api/agri/irrigation", {
+  method: "POST",
+  headers: {
+    "Authorization": `Bearer ${process.env.ZEQ_API_KEY}`,
+    "Content-Type": "application/json",
+  },
+  body: JSON.stringify({
+  "fieldArea_ha": 1,
+  "cropType": "<cropType>",
+  "soilMoisture_pct": 1,
+  "weatherForecast": "<weatherForecast>"
+}),
+});
+const data: ZeqResponse = await res.json();
+console.log(data.result);
+```
+
+### Python
+
+```python
+import os, requests
+
+res = requests.post(
+    "https://www.zeq.dev/api/agri/irrigation",
+    headers={"Authorization": f"Bearer {os.environ['ZEQ_API_KEY']}"},
+    json={
+  "fieldArea_ha": 1,
+  "cropType": "<cropType>",
+  "soilMoisture_pct": 1,
+  "weatherForecast": "<weatherForecast>"
+},
+)
+print(res.json())
+```
+
+### Go
+
+```go
+package main
+
+import (
+    "bytes"
+    "encoding/json"
+    "fmt"
+    "io"
+    "net/http"
+    "os"
+)
+
+func main() {
+    payload, _ := json.Marshal(map[string]interface{}{})
+    req, _ := http.NewRequest("POST", "https://www.zeq.dev/api/agri/irrigation", bytes.NewBuffer(payload))
+    req.Header.Set("Authorization", "Bearer "+os.Getenv("ZEQ_API_KEY"))
+    req.Header.Set("Content-Type", "application/json")
+    res, _ := http.DefaultClient.Do(req)
+    defer res.Body.Close()
+    body, _ := io.ReadAll(res.Body)
+    fmt.Println(string(body))
+}
+```
+
+### Java
+
+```java
+import java.net.URI;
+import java.net.http.HttpClient;
+import java.net.http.HttpRequest;
+import java.net.http.HttpResponse;
+
+public class ZeqCall {
+  public static void main(String[] args) throws Exception {
+    HttpClient client = HttpClient.newHttpClient();
+    HttpRequest req = HttpRequest.newBuilder()
+        .uri(URI.create("https://www.zeq.dev/api/agri/irrigation"))
+        .header("Authorization", "Bearer " + System.getenv("ZEQ_API_KEY"))
+        .header("Content-Type", "application/json")
+        .POST(HttpRequest.BodyPublishers.ofString("{
+  \"fieldArea_ha\": 1,
+  \"cropType\": \"<cropType>\",
+  \"soilMoisture_pct\": 1,
+  \"weatherForecast\": \"<weatherForecast>\"
+}"))
+        .build();
+    HttpResponse<String> res = client.send(req, HttpResponse.BodyHandlers.ofString());
+    System.out.println(res.body());
+  }
+}
+```
+
+### C
+
+```c
+#include <stdio.h>
+#include <stdlib.h>
+#include <curl/curl.h>
+
+int main(void) {
+    CURL *curl = curl_easy_init();
+    if (!curl) return 1;
+    struct curl_slist *headers = NULL;
+    char auth[256];
+    snprintf(auth, sizeof(auth), "Authorization: Bearer %s", getenv("ZEQ_API_KEY"));
+    headers = curl_slist_append(headers, auth);
+    headers = curl_slist_append(headers, "Content-Type: application/json");
+    curl_easy_setopt(curl, CURLOPT_URL, "https://www.zeq.dev/api/agri/irrigation");
+    curl_easy_setopt(curl, CURLOPT_CUSTOMREQUEST, "POST");
+    curl_easy_setopt(curl, CURLOPT_HTTPHEADER, headers);
+    curl_easy_setopt(curl, CURLOPT_POSTFIELDS, "{
+  \"fieldArea_ha\": 1,
+  \"cropType\": \"<cropType>\",
+  \"soilMoisture_pct\": 1,
+  \"weatherForecast\": \"<weatherForecast>\"
+}");
+    curl_easy_perform(curl);
+    curl_slist_free_all(headers);
+    curl_easy_cleanup(curl);
+    return 0;
+}
+```
+
+### C++
+
+```cpp
+#include <iostream>
+#include <cstdlib>
+#include <curl/curl.h>
+
+int main() {
+    CURL* curl = curl_easy_init();
+    if (!curl) return 1;
+    struct curl_slist* headers = nullptr;
+    std::string auth = "Authorization: Bearer ";
+    auth += std::getenv("ZEQ_API_KEY");
+    headers = curl_slist_append(headers, auth.c_str());
+    headers = curl_slist_append(headers, "Content-Type: application/json");
+    curl_easy_setopt(curl, CURLOPT_URL, "https://www.zeq.dev/api/agri/irrigation");
+    curl_easy_setopt(curl, CURLOPT_CUSTOMREQUEST, "POST");
+    curl_easy_setopt(curl, CURLOPT_HTTPHEADER, headers);
+    curl_easy_setopt(curl, CURLOPT_POSTFIELDS, R"json({
+  "fieldArea_ha": 1,
+  "cropType": "<cropType>",
+  "soilMoisture_pct": 1,
+  "weatherForecast": "<weatherForecast>"
+})json");
+    curl_easy_perform(curl);
+    curl_slist_free_all(headers);
+    curl_easy_cleanup(curl);
+}
+```
+
+### PHP
+
+```php
+<?php
+$ch = curl_init("https://www.zeq.dev/api/agri/irrigation");
+curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
+curl_setopt($ch, CURLOPT_HTTPHEADER, [
+    "Authorization: Bearer " . getenv("ZEQ_API_KEY"),
+    "Content-Type: application/json",
+]);
+curl_setopt($ch, CURLOPT_POSTFIELDS, '{
+  "fieldArea_ha": 1,
+  "cropType": "<cropType>",
+  "soilMoisture_pct": 1,
+  "weatherForecast": "<weatherForecast>"
+}');
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+$response = curl_exec($ch);
+curl_close($ch);
+echo $response;
+```
+
+### Swift
+
+```swift
+import Foundation
+
+var req = URLRequest(url: URL(string: "https://www.zeq.dev/api/agri/irrigation")!)
+req.httpMethod = "POST"
+req.setValue("Bearer \(ProcessInfo.processInfo.environment["ZEQ_API_KEY"] ?? "")", forHTTPHeaderField: "Authorization")
+req.setValue("application/json", forHTTPHeaderField: "Content-Type")
+req.httpBody = "{
+  \"fieldArea_ha\": 1,
+  \"cropType\": \"<cropType>\",
+  \"soilMoisture_pct\": 1,
+  \"weatherForecast\": \"<weatherForecast>\"
+}".data(using: .utf8)
+
+URLSession.shared.dataTask(with: req) { data, _, _ in
+    if let data = data { print(String(data: data, encoding: .utf8) ?? "") }
+}.resume()
+```
+
+### Lua
+
+```lua
+local http = require("socket.http")
+local ltn12 = require("ltn12")
+local response = {}
+
+http.request{
+    url = "https://www.zeq.dev/api/agri/irrigation",
+    method = "POST",
+    headers = {
+        ["Authorization"] = "Bearer " .. os.getenv("ZEQ_API_KEY"),
+        ["Content-Type"] = "application/json",
+        ["Content-Length"] = tostring(#'{
+  "fieldArea_ha": 1,
+  "cropType": "<cropType>",
+  "soilMoisture_pct": 1,
+  "weatherForecast": "<weatherForecast>"
+}'),
+    },
+    source = ltn12.source.string('{
+  "fieldArea_ha": 1,
+  "cropType": "<cropType>",
+  "soilMoisture_pct": 1,
+  "weatherForecast": "<weatherForecast>"
+}'),
+    sink = ltn12.sink.table(response),
+}
+print(table.concat(response))
+```
+
+### HTML (drop into any page)
+
+```html
+<script>
+fetch("https://www.zeq.dev/api/agri/irrigation", {
+  method: "POST",
+  headers: {
+    "Authorization": "Bearer YOUR_ZEQ_API_KEY",
+    "Content-Type": "application/json",
+  },
+  body: JSON.stringify({
+  "fieldArea_ha": 1,
+  "cropType": "<cropType>",
+  "soilMoisture_pct": 1,
+  "weatherForecast": "<weatherForecast>"
+}),
+})
+  .then(r => r.json())
+  .then(data => console.log(data));
+</script>
+```
+
+### Markdown / REST Client (.http)
+
+```http
+POST https://www.zeq.dev/api/agri/irrigation
+Authorization: Bearer {{ZEQ_API_KEY}}
+Content-Type: application/json
+
+{
+  "fieldArea_ha": 1,
+  "cropType": "<cropType>",
+  "soilMoisture_pct": 1,
+  "weatherForecast": "<weatherForecast>"
+}
+```
+
+## Phase-Locking & ZeqProof
+
+Every response from `/api/agri/irrigation` carries:
+
+- `zeqondTick` — the Zeqond (0.777 s) at which the result was sealed
+- `hulyaPhase` — the HulyaPulse phase ∈ [0, 1) at sealing
+- `zeqProof` — HMAC receipt that lets any third party verify the result without an API key via `POST /api/zeq/prove/verify`
+
+See [Concepts → ZeqProof](/learn/concepts/zeqproof) and [HulyaPulse](/learn/concepts/hulyapulse) for the underlying mathematics.
+
+## Related
+
+- All protocols in this family — see the [Soil, Irrigation, Crop Disease, Livestock, Yield](/reference/protocols) category
+- [API Reference → Endpoints](/reference/api/endpoints)
+- [Concepts → ZeqProof](/learn/concepts/zeqproof)

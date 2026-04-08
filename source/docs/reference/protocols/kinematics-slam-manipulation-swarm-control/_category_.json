@@ -1,0 +1,12 @@
+{
+  "label": "Kinematics, SLAM, Manipulation, Swarm, Control",
+  "position": 15,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "Kinematics, SLAM, Manipulation, Swarm, Control",
+    "description": "5 Zeq protocols in the Kinematics, SLAM, Manipulation, Swarm, Control family.",
+    "slug": "/protocols/kinematics-slam-manipulation-swarm-control"
+  }
+}

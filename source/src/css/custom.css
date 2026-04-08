@@ -1,0 +1,166 @@
+/**
+ * Zeq SDK — Custom Docusaurus Theme
+ * Dark mode only. Phase-locked to HulyaPulse.
+ */
+
+:root {
+  --ifm-color-primary: #00ff88;
+  --ifm-color-primary-dark: #00e57a;
+  --ifm-color-primary-darker: #00d974;
+  --ifm-color-primary-darkest: #00b35f;
+  --ifm-color-primary-light: #1aff96;
+  --ifm-color-primary-lighter: #26ff9c;
+  --ifm-color-primary-lightest: #4dffaf;
+  --ifm-font-family-base: "Inter", system-ui, -apple-system, sans-serif;
+  --ifm-font-family-monospace: "JetBrains Mono", "Fira Code", monospace;
+  --ifm-code-font-size: 85%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 255, 136, 0.1);
+}
+
+[data-theme="dark"] {
+  --ifm-background-color: #0a0a0f;
+  --ifm-background-surface-color: #111118;
+  --ifm-color-primary: #00ff88;
+  --ifm-color-primary-dark: #00e57a;
+  --ifm-color-primary-darker: #00d974;
+  --ifm-color-primary-darkest: #00b35f;
+  --ifm-color-primary-light: #1aff96;
+  --ifm-color-primary-lighter: #26ff9c;
+  --ifm-color-primary-lightest: #4dffaf;
+  --ifm-footer-background-color: #060609;
+  --ifm-navbar-background-color: #0a0a0fdd;
+}
+
+/* Navbar glass effect */
+.navbar {
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(0, 255, 136, 0.08);
+}
+
+/* Code blocks */
+.prism-code {
+  border: 1px solid rgba(0, 255, 136, 0.12);
+  border-radius: 8px;
+}
+
+/* Sidebar */
+.menu__link {
+  font-size: 0.9rem;
+}
+
+.menu__link--active {
+  color: #00ff88;
+  font-weight: 600;
+}
+
+/* Protocol cards */
+.protocol-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(0, 255, 136, 0.12);
+  border-radius: 8px;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  transition: border-color 0.2s;
+}
+
+.protocol-card:hover {
+  border-color: rgba(0, 255, 136, 0.35);
+}
+
+.protocol-card h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.05rem;
+}
+
+.protocol-card code {
+  font-size: 0.8rem;
+  color: #00e5ff;
+}
+
+/* Zeq-specific admonition */
+.admonition-zeq {
+  border-color: #00ff88;
+  background: rgba(0, 255, 136, 0.04);
+}
+
+/* Equation blocks */
+.equation-block {
+  background: rgba(0, 255, 136, 0.04);
+  border: 1px solid rgba(0, 255, 136, 0.15);
+  border-radius: 8px;
+  padding: 1.25rem;
+  margin: 1.5rem 0;
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 1.1rem;
+  text-align: center;
+  color: #b8f5d8;
+}
+
+/* Param tables */
+table {
+  font-size: 0.9rem;
+}
+
+table th {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* API endpoint badges */
+.method-badge {
+  display: inline-block;
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.method-get {
+  background: rgba(0, 229, 255, 0.12);
+  color: #00e5ff;
+}
+
+.method-post {
+  background: rgba(0, 255, 136, 0.12);
+  color: #00ff88;
+}
+
+/* Live API demo button */
+.try-it-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.5rem 1rem;
+  background: rgba(0, 255, 136, 0.08);
+  border: 1px solid rgba(0, 255, 136, 0.25);
+  border-radius: 6px;
+  color: #00ff88;
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.try-it-btn:hover {
+  background: rgba(0, 255, 136, 0.15);
+  border-color: rgba(0, 255, 136, 0.4);
+}
+
+/* HulyaPulse animated border */
+@keyframes pulse-border {
+  0%, 100% {
+    border-color: rgba(0, 255, 136, 0.15);
+  }
+  50% {
+    border-color: rgba(0, 255, 136, 0.4);
+  }
+}
+
+.pulse-border {
+  animation: pulse-border 0.777s ease-in-out infinite;
+}

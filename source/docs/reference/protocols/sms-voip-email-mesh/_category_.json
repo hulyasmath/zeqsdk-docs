@@ -1,0 +1,12 @@
+{
+  "label": "SMS, VoIP, Email, Mesh",
+  "position": 32,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "SMS, VoIP, Email, Mesh",
+    "description": "15 Zeq protocols in the SMS, VoIP, Email, Mesh family.",
+    "slug": "/protocols/sms-voip-email-mesh"
+  }
+}

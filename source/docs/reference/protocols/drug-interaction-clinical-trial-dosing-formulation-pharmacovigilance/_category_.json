@@ -1,0 +1,12 @@
+{
+  "label": "Drug Interaction, Clinical Trial, Dosing, Formulation, Pharmacovigilance",
+  "position": 9,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "Drug Interaction, Clinical Trial, Dosing, Formulation, Pharmacovigilance",
+    "description": "5 Zeq protocols in the Drug Interaction, Clinical Trial, Dosing, Formulation, Pharmacovigilance family.",
+    "slug": "/protocols/drug-interaction-clinical-trial-dosing-formulation-pharmacovigilance"
+  }
+}

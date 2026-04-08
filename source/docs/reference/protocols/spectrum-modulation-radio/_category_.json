@@ -1,0 +1,12 @@
+{
+  "label": "Spectrum, modulation, radio",
+  "position": 35,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "Spectrum, modulation, radio",
+    "description": "6 Zeq protocols in the Spectrum, modulation, radio family.",
+    "slug": "/protocols/spectrum-modulation-radio"
+  }
+}

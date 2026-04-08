@@ -1,0 +1,12 @@
+{
+  "label": "HulyaPulse heartbeat",
+  "position": 13,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "HulyaPulse heartbeat",
+    "description": "3 Zeq protocols in the HulyaPulse heartbeat family.",
+    "slug": "/protocols/hulyapulse-heartbeat"
+  }
+}

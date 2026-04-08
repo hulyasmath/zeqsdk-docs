@@ -1,0 +1,12 @@
+{
+  "label": "Forecast, Severe, Marine, Agricultural, Solar",
+  "position": 12,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "Forecast, Severe, Marine, Agricultural, Solar",
+    "description": "5 Zeq protocols in the Forecast, Severe, Marine, Agricultural, Solar family.",
+    "slug": "/protocols/forecast-severe-marine-agricultural-solar"
+  }
+}

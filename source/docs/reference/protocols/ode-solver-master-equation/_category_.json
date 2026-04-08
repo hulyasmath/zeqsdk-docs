@@ -1,0 +1,12 @@
+{
+  "label": "ODE solver, master equation",
+  "position": 20,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "ODE solver, master equation",
+    "description": "8 Zeq protocols in the ODE solver, master equation family.",
+    "slug": "/protocols/ode-solver-master-equation"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "label": "Usage, keys, status",
+  "position": 37,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "Usage, keys, status",
+    "description": "2 Zeq protocols in the Usage, keys, status family.",
+    "slug": "/protocols/usage-keys-status"
+  }
+}

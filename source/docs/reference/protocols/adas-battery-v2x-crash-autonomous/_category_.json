@@ -1,0 +1,12 @@
+{
+  "label": "ADAS, Battery, V2X, Crash, Autonomous",
+  "position": 3,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "ADAS, Battery, V2X, Crash, Autonomous",
+    "description": "5 Zeq protocols in the ADAS, Battery, V2X, Crash, Autonomous family.",
+    "slug": "/protocols/adas-battery-v2x-crash-autonomous"
+  }
+}

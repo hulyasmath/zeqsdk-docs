@@ -1,0 +1,12 @@
+{
+  "label": "Encryption, channels, proofs, firewall",
+  "position": 10,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "Encryption, channels, proofs, firewall",
+    "description": "8 Zeq protocols in the Encryption, channels, proofs, firewall family.",
+    "slug": "/protocols/encryption-channels-proofs-firewall"
+  }
+}

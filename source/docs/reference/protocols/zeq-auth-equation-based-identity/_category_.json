@@ -1,0 +1,12 @@
+{
+  "label": "Zeq Auth, equation-based identity",
+  "position": 39,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "Zeq Auth, equation-based identity",
+    "description": "6 Zeq protocols in the Zeq Auth, equation-based identity family.",
+    "slug": "/protocols/zeq-auth-equation-based-identity"
+  }
+}

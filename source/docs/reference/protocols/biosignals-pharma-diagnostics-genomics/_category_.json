@@ -1,0 +1,12 @@
+{
+  "label": "Biosignals, pharma, diagnostics, genomics",
+  "position": 5,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "Biosignals, pharma, diagnostics, genomics",
+    "description": "7 Zeq protocols in the Biosignals, pharma, diagnostics, genomics family.",
+    "slug": "/protocols/biosignals-pharma-diagnostics-genomics"
+  }
+}

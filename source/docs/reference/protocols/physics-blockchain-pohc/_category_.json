@@ -1,0 +1,12 @@
+{
+  "label": "Physics Blockchain, PoHC",
+  "position": 23,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "Physics Blockchain, PoHC",
+    "description": "6 Zeq protocols in the Physics Blockchain, PoHC family.",
+    "slug": "/protocols/physics-blockchain-pohc"
+  }
+}

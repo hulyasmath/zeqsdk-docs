@@ -1,0 +1,12 @@
+{
+  "label": "Water, Traffic, Bridge, Power Grid, Smart City",
+  "position": 38,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "Water, Traffic, Bridge, Power Grid, Smart City",
+    "description": "5 Zeq protocols in the Water, Traffic, Bridge, Power Grid, Smart City family.",
+    "slug": "/protocols/water-traffic-bridge-power-grid-smart-city"
+  }
+}

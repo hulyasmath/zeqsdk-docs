@@ -1,0 +1,12 @@
+{
+  "label": "Soil, Irrigation, Crop Disease, Livestock, Yield",
+  "position": 34,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "Soil, Irrigation, Crop Disease, Livestock, Yield",
+    "description": "5 Zeq protocols in the Soil, Irrigation, Crop Disease, Livestock, Yield family.",
+    "slug": "/protocols/soil-irrigation-crop-disease-livestock-yield"
+  }
+}
