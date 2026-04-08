@@ -1,0 +1,86 @@
+{
+  "link.title.SDK": {
+    "message": "软件开发工具包",
+    "description": "The title of the footer links column with title=SDK in the footer"
+  },
+  "link.title.Guides": {
+    "message": "指南",
+    "description": "The title of the footer links column with title=Guides in the footer"
+  },
+  "link.title.Resources": {
+    "message": "资源",
+    "description": "The title of the footer links column with title=Resources in the footer"
+  },
+  "link.title.Ecosystem": {
+    "message": "生态系统",
+    "description": "The title of the footer links column with title=Ecosystem in the footer"
+  },
+  "link.item.label.Quick Start": {
+    "message": "快速入门",
+    "description": "The label of footer link with label=Quick Start linking to /build/quickstart/introduction"
+  },
+  "link.item.label.Core Concepts": {
+    "message": "核心概念",
+    "description": "The label of footer link with label=Core Concepts linking to /learn/concepts/hulyapulse"
+  },
+  "link.item.label.Protocol Reference": {
+    "message": "协议参考",
+    "description": "The label of footer link with label=Protocol Reference linking to /reference/protocols"
+  },
+  "link.item.label.Medical Imaging": {
+    "message": "医学影像",
+    "description": "The label of footer link with label=Medical Imaging linking to /build/recipes/medical-imaging"
+  },
+  "link.item.label.Game Physics": {
+    "message": "游戏物理",
+    "description": "The label of footer link with label=Game Physics linking to /build/recipes/game-physics"
+  },
+  "link.item.label.Emergency Systems": {
+    "message": "应急系统",
+    "description": "The label of footer link with label=Emergency Systems linking to /build/recipes/emergency-systems"
+  },
+  "link.item.label.Zeq Paper (DOI)": {
+    "message": "Zeq 论文 (DOI)",
+    "description": "The label of footer link with label=Zeq Paper (DOI) linking to https://doi.org/10.5281/zenodo.18158152"
+  },
+  "link.item.label.Framework Paper (DOI)": {
+    "message": "框架文件 (DOI)",
+    "description": "The label of footer link with label=Framework Paper (DOI) linking to https://doi.org/10.5281/zenodo.15825138"
+  },
+  "link.item.label.HULYAS.org": {
+    "message": "HULYAS.org",
+    "description": "The label of footer link with label=HULYAS.org linking to https://hulyas.org"
+  },
+  "link.item.label.zeq.dev — Developer SDK": {
+    "message": "zeq.dev — 开发者 SDK",
+    "description": "The label of footer link with label=zeq.dev — Developer SDK linking to https://zeq.dev"
+  },
+  "link.item.label.zeq.me — Apps & Ecosystem": {
+    "message": "zeq.me — 应用程序和生态系统",
+    "description": "The label of footer link with label=zeq.me — Apps & Ecosystem linking to https://zeq.me"
+  },
+  "link.item.label.HulyaPulse.com — The Frequency": {
+    "message": "HulyaPulse.com — 频率",
+    "description": "The label of footer link with label=HulyaPulse.com — The Frequency linking to https://hulyapulse.com"
+  },
+  "link.item.label.1.287.com — The Discovery & Architecture": {
+    "message": "1.287.com — 发现与架构",
+    "description": "The label of footer link with label=1.287.com — The Discovery & Architecture linking to https://1.287.com"
+  },
+  "link.item.label.Zeqond.com — The 0.777 Clock Cycle": {
+    "message": "Zeqond.com — 0.777 时钟周期",
+    "description": "The label of footer link with label=Zeqond.com — The 0.777 Clock Cycle linking to https://zeqond.com"
+  },
+  "link.item.label.Hulyas.org — Foundation": {
+    "message": "Hulyas.org — 基金会",
+    "description": "The label of footer link with label=Hulyas.org — Foundation linking to https://hulyas.org"
+  },
+  "link.item.label.GitHub — hulyasmath": {
+    "message": "GitHub — hulyasmath",
+    "description": "The label of footer link with label=GitHub — hulyasmath linking to https://github.com/hulyasmath"
+  },
+  "copyright": {
+    "message": "版权所有 © 2026 Zeq 1.287 Hz 有限公司。版权所有。",
+    "description": "The footer copyright"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "version.label": {
+    "message": "次",
+    "description": "The label for version current"
+  },
+  "sidebar.learnSidebar.category.Learn": {
+    "message": "学ぶ",
+    "description": "The label for category 'Learn' in sidebar 'learnSidebar'"
+  },
+  "sidebar.learnSidebar.category.Concepts": {
+    "message": "コンセプト",
+    "description": "The label for category 'Concepts' in sidebar 'learnSidebar'"
+  },
+  "sidebar.buildSidebar.category.Quickstart": {
+    "message": "クイックスタート",
+    "description": "The label for category 'Quickstart' in sidebar 'buildSidebar'"
+  },
+  "sidebar.buildSidebar.category.Language Clients": {
+    "message": "言語クライアント",
+    "description": "The label for category 'Language Clients' in sidebar 'buildSidebar'"
+  },
+  "sidebar.buildSidebar.category.Domain Recipes": {
+    "message": "ドメインレシピ",
+    "description": "The label for category 'Domain Recipes' in sidebar 'buildSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Protocols (234)": {
+    "message": "プロトコル (234)",
+    "description": "The label for category 'Protocols (234)' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.ZeqField Protocols (5)": {
+    "message": "ZeqField プロトコル (5)",
+    "description": "The label for category 'ZeqField Protocols (5)' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.ZeqField Protocols (5).link.generated-index.title": {
+    "message": "ZeqField プロトコル",
+    "description": "The generated-index page title for category 'ZeqField Protocols (5)' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.ZeqField Protocols (5).link.generated-index.description": {
+    "message": "5つのプロトコル。 1つのフィールド。 ZeqField の動作層 — 1.287 Hz に位相ロック。",
+    "description": "The generated-index page description for category 'ZeqField Protocols (5)' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Core Computation": {
+    "message": "コアコンピューティング",
+    "description": "The label for category 'Core Computation' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Core Computation.link.generated-index.title": {
+    "message": "コアコンピューティング",
+    "description": "The generated-index page title for category 'Core Computation' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Core Computation.link.generated-index.description": {
+    "message": "Core Computation ファミリの 2 Zeq プロトコル。",
+    "description": "The generated-index page description for category 'Core Computation' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Machine Learning": {
+    "message": "機械学習",
+    "description": "The label for category 'Machine Learning' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Machine Learning.link.generated-index.title": {
+    "message": "機械学習",
+    "description": "The generated-index page title for category 'Machine Learning' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Machine Learning.link.generated-index.description": {
+    "message": "1 機械学習ファミリーの Zeq プロトコル。",
+    "description": "The generated-index page description for category 'Machine Learning' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Quantum Computing": {
+    "message": "量子コンピューティング",
+    "description": "The label for category 'Quantum Computing' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Quantum Computing.link.generated-index.title": {
+    "message": "量子コンピューティング",
+    "description": "The generated-index page title for category 'Quantum Computing' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Quantum Computing.link.generated-index.description": {
+    "message": "1 量子コンピューティング ファミリの Zeq プロトコル。",
+    "description": "The generated-index page description for category 'Quantum Computing' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Operators": {
+    "message": "オペレーター",
+    "description": "The label for category 'Operators' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.API": {
+    "message": "API",
+    "description": "The label for category 'API' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Core endpoints": {
+    "message": "コアエンドポイント",
+    "description": "The label for category 'Core endpoints' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.operateSidebar.category.Operate": {
+    "message": "操作する",
+    "description": "The label for category 'Operate' in sidebar 'operateSidebar'"
+  }
+}

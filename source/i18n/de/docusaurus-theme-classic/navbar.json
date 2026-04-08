@@ -1,0 +1,46 @@
+{
+  "title": {
+    "message": "Zeq SDK",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Zeq",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Learn": {
+    "message": "Lernen",
+    "description": "Navbar item with label Learn"
+  },
+  "item.label.Build": {
+    "message": "Bauen",
+    "description": "Navbar item with label Build"
+  },
+  "item.label.Reference": {
+    "message": "Referenz",
+    "description": "Navbar item with label Reference"
+  },
+  "item.label.Operate": {
+    "message": "Arbeiten",
+    "description": "Navbar item with label Operate"
+  },
+  "item.label.Languages": {
+    "message": "Sprachen",
+    "description": "Navbar item with label Languages"
+  },
+  "item.label.Compliance": {
+    "message": "Einhaltung",
+    "description": "Navbar item with label Compliance"
+  },
+  "item.label.Zeq State": {
+    "message": "Zeq-Staat",
+    "description": "Navbar item with label Zeq State"
+  },
+  "item.label.Pricing": {
+    "message": "Preise",
+    "description": "Navbar item with label Pricing"
+  },
+  "item.label.zeq.dev": {
+    "message": "zeq.dev",
+    "description": "Navbar item with label zeq.dev"
+  }
+}

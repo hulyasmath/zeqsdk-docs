@@ -1,0 +1,46 @@
+{
+  "title": {
+    "message": "زيك SDK",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "زيك",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Learn": {
+    "message": "يتعلم",
+    "description": "Navbar item with label Learn"
+  },
+  "item.label.Build": {
+    "message": "يبني",
+    "description": "Navbar item with label Build"
+  },
+  "item.label.Reference": {
+    "message": "مرجع",
+    "description": "Navbar item with label Reference"
+  },
+  "item.label.Operate": {
+    "message": "تشغيل",
+    "description": "Navbar item with label Operate"
+  },
+  "item.label.Languages": {
+    "message": "اللغات",
+    "description": "Navbar item with label Languages"
+  },
+  "item.label.Compliance": {
+    "message": "امتثال",
+    "description": "Navbar item with label Compliance"
+  },
+  "item.label.Zeq State": {
+    "message": "ولاية زيك",
+    "description": "Navbar item with label Zeq State"
+  },
+  "item.label.Pricing": {
+    "message": "التسعير",
+    "description": "Navbar item with label Pricing"
+  },
+  "item.label.zeq.dev": {
+    "message": "zeq.dev",
+    "description": "Navbar item with label zeq.dev"
+  }
+}

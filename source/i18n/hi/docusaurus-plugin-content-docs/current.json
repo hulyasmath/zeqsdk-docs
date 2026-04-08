@@ -1,0 +1,94 @@
+{
+  "version.label": {
+    "message": "अगला",
+    "description": "The label for version current"
+  },
+  "sidebar.learnSidebar.category.Learn": {
+    "message": "सीखना",
+    "description": "The label for category 'Learn' in sidebar 'learnSidebar'"
+  },
+  "sidebar.learnSidebar.category.Concepts": {
+    "message": "अवधारणाओं",
+    "description": "The label for category 'Concepts' in sidebar 'learnSidebar'"
+  },
+  "sidebar.buildSidebar.category.Quickstart": {
+    "message": "त्वरित शुरुआत",
+    "description": "The label for category 'Quickstart' in sidebar 'buildSidebar'"
+  },
+  "sidebar.buildSidebar.category.Language Clients": {
+    "message": "भाषा ग्राहक",
+    "description": "The label for category 'Language Clients' in sidebar 'buildSidebar'"
+  },
+  "sidebar.buildSidebar.category.Domain Recipes": {
+    "message": "डोमेन रेसिपी",
+    "description": "The label for category 'Domain Recipes' in sidebar 'buildSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Protocols (234)": {
+    "message": "प्रोटोकॉल (234)",
+    "description": "The label for category 'Protocols (234)' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.ZeqField Protocols (5)": {
+    "message": "ज़ेकफ़ील्ड प्रोटोकॉल (5)",
+    "description": "The label for category 'ZeqField Protocols (5)' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.ZeqField Protocols (5).link.generated-index.title": {
+    "message": "ज़ेकफ़ील्ड प्रोटोकॉल",
+    "description": "The generated-index page title for category 'ZeqField Protocols (5)' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.ZeqField Protocols (5).link.generated-index.description": {
+    "message": "पांच प्रोटोकॉल. एक मैदान. ज़ेकफ़ील्ड की परिचालन परत - 1.287 हर्ट्ज़ पर चरण-लॉक।",
+    "description": "The generated-index page description for category 'ZeqField Protocols (5)' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Core Computation": {
+    "message": "कोर संगणना",
+    "description": "The label for category 'Core Computation' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Core Computation.link.generated-index.title": {
+    "message": "कोर संगणना",
+    "description": "The generated-index page title for category 'Core Computation' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Core Computation.link.generated-index.description": {
+    "message": "कोर कंप्यूटेशन परिवार में 2 ज़ेक प्रोटोकॉल।",
+    "description": "The generated-index page description for category 'Core Computation' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Machine Learning": {
+    "message": "यंत्र अधिगम",
+    "description": "The label for category 'Machine Learning' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Machine Learning.link.generated-index.title": {
+    "message": "यंत्र अधिगम",
+    "description": "The generated-index page title for category 'Machine Learning' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Machine Learning.link.generated-index.description": {
+    "message": "मशीन लर्निंग परिवार में 1 ज़ेक प्रोटोकॉल।",
+    "description": "The generated-index page description for category 'Machine Learning' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Quantum Computing": {
+    "message": "क्वांटम कम्प्यूटिंग",
+    "description": "The label for category 'Quantum Computing' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Quantum Computing.link.generated-index.title": {
+    "message": "क्वांटम कम्प्यूटिंग",
+    "description": "The generated-index page title for category 'Quantum Computing' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Quantum Computing.link.generated-index.description": {
+    "message": "क्वांटम कंप्यूटिंग परिवार में 1 ज़ेक प्रोटोकॉल।",
+    "description": "The generated-index page description for category 'Quantum Computing' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Operators": {
+    "message": "ऑपरेटर्स",
+    "description": "The label for category 'Operators' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.API": {
+    "message": "एपीआई",
+    "description": "The label for category 'API' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Core endpoints": {
+    "message": "मुख्य समापनबिंदु",
+    "description": "The label for category 'Core endpoints' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.operateSidebar.category.Operate": {
+    "message": "प्रचालन",
+    "description": "The label for category 'Operate' in sidebar 'operateSidebar'"
+  }
+}

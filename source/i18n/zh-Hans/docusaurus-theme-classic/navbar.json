@@ -1,0 +1,46 @@
+{
+  "title": {
+    "message": "泽克SDK",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "泽克",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Learn": {
+    "message": "学习",
+    "description": "Navbar item with label Learn"
+  },
+  "item.label.Build": {
+    "message": "建造",
+    "description": "Navbar item with label Build"
+  },
+  "item.label.Reference": {
+    "message": "参考",
+    "description": "Navbar item with label Reference"
+  },
+  "item.label.Operate": {
+    "message": "操作",
+    "description": "Navbar item with label Operate"
+  },
+  "item.label.Languages": {
+    "message": "语言",
+    "description": "Navbar item with label Languages"
+  },
+  "item.label.Compliance": {
+    "message": "遵守",
+    "description": "Navbar item with label Compliance"
+  },
+  "item.label.Zeq State": {
+    "message": "泽克州",
+    "description": "Navbar item with label Zeq State"
+  },
+  "item.label.Pricing": {
+    "message": "定价",
+    "description": "Navbar item with label Pricing"
+  },
+  "item.label.zeq.dev": {
+    "message": "zeq.dev",
+    "description": "Navbar item with label zeq.dev"
+  }
+}

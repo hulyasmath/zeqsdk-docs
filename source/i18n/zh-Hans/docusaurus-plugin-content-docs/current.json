@@ -1,0 +1,94 @@
+{
+  "version.label": {
+    "message": "下一个",
+    "description": "The label for version current"
+  },
+  "sidebar.learnSidebar.category.Learn": {
+    "message": "学习",
+    "description": "The label for category 'Learn' in sidebar 'learnSidebar'"
+  },
+  "sidebar.learnSidebar.category.Concepts": {
+    "message": "概念",
+    "description": "The label for category 'Concepts' in sidebar 'learnSidebar'"
+  },
+  "sidebar.buildSidebar.category.Quickstart": {
+    "message": "快速入门",
+    "description": "The label for category 'Quickstart' in sidebar 'buildSidebar'"
+  },
+  "sidebar.buildSidebar.category.Language Clients": {
+    "message": "语言客户",
+    "description": "The label for category 'Language Clients' in sidebar 'buildSidebar'"
+  },
+  "sidebar.buildSidebar.category.Domain Recipes": {
+    "message": "领域食谱",
+    "description": "The label for category 'Domain Recipes' in sidebar 'buildSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Protocols (234)": {
+    "message": "协议 (234)",
+    "description": "The label for category 'Protocols (234)' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.ZeqField Protocols (5)": {
+    "message": "ZeqField 协议 (5)",
+    "description": "The label for category 'ZeqField Protocols (5)' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.ZeqField Protocols (5).link.generated-index.title": {
+    "message": "ZeqField 协议",
+    "description": "The generated-index page title for category 'ZeqField Protocols (5)' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.ZeqField Protocols (5).link.generated-index.description": {
+    "message": "五个协议。一场。 ZeqField 的操作层 - 锁相至 1.287 Hz。",
+    "description": "The generated-index page description for category 'ZeqField Protocols (5)' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Core Computation": {
+    "message": "核心计算",
+    "description": "The label for category 'Core Computation' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Core Computation.link.generated-index.title": {
+    "message": "核心计算",
+    "description": "The generated-index page title for category 'Core Computation' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Core Computation.link.generated-index.description": {
+    "message": "2 核心计算系列中的 Zeq 协议。",
+    "description": "The generated-index page description for category 'Core Computation' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Machine Learning": {
+    "message": "机器学习",
+    "description": "The label for category 'Machine Learning' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Machine Learning.link.generated-index.title": {
+    "message": "机器学习",
+    "description": "The generated-index page title for category 'Machine Learning' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Machine Learning.link.generated-index.description": {
+    "message": "1 机器学习系列中的 Zeq 协议。",
+    "description": "The generated-index page description for category 'Machine Learning' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Quantum Computing": {
+    "message": "量子计算",
+    "description": "The label for category 'Quantum Computing' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Quantum Computing.link.generated-index.title": {
+    "message": "量子计算",
+    "description": "The generated-index page title for category 'Quantum Computing' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Quantum Computing.link.generated-index.description": {
+    "message": "1 量子计算系列中的 Zeq 协议。",
+    "description": "The generated-index page description for category 'Quantum Computing' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Operators": {
+    "message": "运营商",
+    "description": "The label for category 'Operators' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.API": {
+    "message": "应用程序编程接口",
+    "description": "The label for category 'API' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Core endpoints": {
+    "message": "核心端点",
+    "description": "The label for category 'Core endpoints' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.operateSidebar.category.Operate": {
+    "message": "操作",
+    "description": "The label for category 'Operate' in sidebar 'operateSidebar'"
+  }
+}

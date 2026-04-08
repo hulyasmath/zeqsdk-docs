@@ -1,0 +1,46 @@
+{
+  "title": {
+    "message": "Зек SDK",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Зек",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Learn": {
+    "message": "Учиться",
+    "description": "Navbar item with label Learn"
+  },
+  "item.label.Build": {
+    "message": "Строить",
+    "description": "Navbar item with label Build"
+  },
+  "item.label.Reference": {
+    "message": "Ссылка",
+    "description": "Navbar item with label Reference"
+  },
+  "item.label.Operate": {
+    "message": "Работать",
+    "description": "Navbar item with label Operate"
+  },
+  "item.label.Languages": {
+    "message": "Языки",
+    "description": "Navbar item with label Languages"
+  },
+  "item.label.Compliance": {
+    "message": "Согласие",
+    "description": "Navbar item with label Compliance"
+  },
+  "item.label.Zeq State": {
+    "message": "штат Зек",
+    "description": "Navbar item with label Zeq State"
+  },
+  "item.label.Pricing": {
+    "message": "Цены",
+    "description": "Navbar item with label Pricing"
+  },
+  "item.label.zeq.dev": {
+    "message": "zeq.dev",
+    "description": "Navbar item with label zeq.dev"
+  }
+}

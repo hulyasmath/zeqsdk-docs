@@ -1,0 +1,94 @@
+{
+  "version.label": {
+    "message": "التالي",
+    "description": "The label for version current"
+  },
+  "sidebar.learnSidebar.category.Learn": {
+    "message": "يتعلم",
+    "description": "The label for category 'Learn' in sidebar 'learnSidebar'"
+  },
+  "sidebar.learnSidebar.category.Concepts": {
+    "message": "المفاهيم",
+    "description": "The label for category 'Concepts' in sidebar 'learnSidebar'"
+  },
+  "sidebar.buildSidebar.category.Quickstart": {
+    "message": "بداية سريعة",
+    "description": "The label for category 'Quickstart' in sidebar 'buildSidebar'"
+  },
+  "sidebar.buildSidebar.category.Language Clients": {
+    "message": "عملاء اللغة",
+    "description": "The label for category 'Language Clients' in sidebar 'buildSidebar'"
+  },
+  "sidebar.buildSidebar.category.Domain Recipes": {
+    "message": "وصفات المجال",
+    "description": "The label for category 'Domain Recipes' in sidebar 'buildSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Protocols (234)": {
+    "message": "البروتوكولات (234)",
+    "description": "The label for category 'Protocols (234)' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.ZeqField Protocols (5)": {
+    "message": "بروتوكولات زيكفيلد (5)",
+    "description": "The label for category 'ZeqField Protocols (5)' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.ZeqField Protocols (5).link.generated-index.title": {
+    "message": "بروتوكولات زيكفيلد",
+    "description": "The generated-index page title for category 'ZeqField Protocols (5)' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.ZeqField Protocols (5).link.generated-index.description": {
+    "message": "خمسة بروتوكولات. حقل واحد. الطبقة التشغيلية لـ ZeqField — مقفلة الطور عند 1.287 هرتز.",
+    "description": "The generated-index page description for category 'ZeqField Protocols (5)' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Core Computation": {
+    "message": "الحساب الأساسي",
+    "description": "The label for category 'Core Computation' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Core Computation.link.generated-index.title": {
+    "message": "الحساب الأساسي",
+    "description": "The generated-index page title for category 'Core Computation' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Core Computation.link.generated-index.description": {
+    "message": "2 بروتوكولات Zeq في عائلة الحوسبة الأساسية.",
+    "description": "The generated-index page description for category 'Core Computation' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Machine Learning": {
+    "message": "التعلم الآلي",
+    "description": "The label for category 'Machine Learning' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Machine Learning.link.generated-index.title": {
+    "message": "التعلم الآلي",
+    "description": "The generated-index page title for category 'Machine Learning' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Machine Learning.link.generated-index.description": {
+    "message": "1 بروتوكولات Zeq في عائلة التعلم الآلي.",
+    "description": "The generated-index page description for category 'Machine Learning' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Quantum Computing": {
+    "message": "الحوسبة الكمومية",
+    "description": "The label for category 'Quantum Computing' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Quantum Computing.link.generated-index.title": {
+    "message": "الحوسبة الكمومية",
+    "description": "The generated-index page title for category 'Quantum Computing' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Quantum Computing.link.generated-index.description": {
+    "message": "1 بروتوكولات Zeq في عائلة الحوسبة الكمومية.",
+    "description": "The generated-index page description for category 'Quantum Computing' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Operators": {
+    "message": "مشغلي",
+    "description": "The label for category 'Operators' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.API": {
+    "message": "واجهة برمجة التطبيقات",
+    "description": "The label for category 'API' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Core endpoints": {
+    "message": "نقاط النهاية الأساسية",
+    "description": "The label for category 'Core endpoints' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.operateSidebar.category.Operate": {
+    "message": "تشغيل",
+    "description": "The label for category 'Operate' in sidebar 'operateSidebar'"
+  }
+}

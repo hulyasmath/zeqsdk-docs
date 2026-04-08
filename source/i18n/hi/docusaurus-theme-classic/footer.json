@@ -1,0 +1,86 @@
+{
+  "link.title.SDK": {
+    "message": "एसडीके",
+    "description": "The title of the footer links column with title=SDK in the footer"
+  },
+  "link.title.Guides": {
+    "message": "गाइड",
+    "description": "The title of the footer links column with title=Guides in the footer"
+  },
+  "link.title.Resources": {
+    "message": "संसाधन",
+    "description": "The title of the footer links column with title=Resources in the footer"
+  },
+  "link.title.Ecosystem": {
+    "message": "पारिस्थितिकी तंत्र",
+    "description": "The title of the footer links column with title=Ecosystem in the footer"
+  },
+  "link.item.label.Quick Start": {
+    "message": "त्वरित शुरुआत",
+    "description": "The label of footer link with label=Quick Start linking to /build/quickstart/introduction"
+  },
+  "link.item.label.Core Concepts": {
+    "message": "मूल अवधारणाएँ",
+    "description": "The label of footer link with label=Core Concepts linking to /learn/concepts/hulyapulse"
+  },
+  "link.item.label.Protocol Reference": {
+    "message": "प्रोटोकॉल संदर्भ",
+    "description": "The label of footer link with label=Protocol Reference linking to /reference/protocols"
+  },
+  "link.item.label.Medical Imaging": {
+    "message": "मेडिकल इमेजिंग",
+    "description": "The label of footer link with label=Medical Imaging linking to /build/recipes/medical-imaging"
+  },
+  "link.item.label.Game Physics": {
+    "message": "खेल भौतिकी",
+    "description": "The label of footer link with label=Game Physics linking to /build/recipes/game-physics"
+  },
+  "link.item.label.Emergency Systems": {
+    "message": "आपातकालीन प्रणालियाँ",
+    "description": "The label of footer link with label=Emergency Systems linking to /build/recipes/emergency-systems"
+  },
+  "link.item.label.Zeq Paper (DOI)": {
+    "message": "ज़ेक पेपर (डीओआई)",
+    "description": "The label of footer link with label=Zeq Paper (DOI) linking to https://doi.org/10.5281/zenodo.18158152"
+  },
+  "link.item.label.Framework Paper (DOI)": {
+    "message": "फ्रेमवर्क पेपर (डीओआई)",
+    "description": "The label of footer link with label=Framework Paper (DOI) linking to https://doi.org/10.5281/zenodo.15825138"
+  },
+  "link.item.label.HULYAS.org": {
+    "message": "HULYAS.org",
+    "description": "The label of footer link with label=HULYAS.org linking to https://hulyas.org"
+  },
+  "link.item.label.zeq.dev — Developer SDK": {
+    "message": "zeq.dev - डेवलपर एसडीके",
+    "description": "The label of footer link with label=zeq.dev — Developer SDK linking to https://zeq.dev"
+  },
+  "link.item.label.zeq.me — Apps & Ecosystem": {
+    "message": "zeq.me - ऐप्स और इकोसिस्टम",
+    "description": "The label of footer link with label=zeq.me — Apps & Ecosystem linking to https://zeq.me"
+  },
+  "link.item.label.HulyaPulse.com — The Frequency": {
+    "message": "HulyaPulse.com - आवृत्ति",
+    "description": "The label of footer link with label=HulyaPulse.com — The Frequency linking to https://hulyapulse.com"
+  },
+  "link.item.label.1.287.com — The Discovery & Architecture": {
+    "message": "1.287.कॉम - डिस्कवरी और आर्किटेक्चर",
+    "description": "The label of footer link with label=1.287.com — The Discovery & Architecture linking to https://1.287.com"
+  },
+  "link.item.label.Zeqond.com — The 0.777 Clock Cycle": {
+    "message": "Zeqond.com - 0.777 घड़ी चक्र",
+    "description": "The label of footer link with label=Zeqond.com — The 0.777 Clock Cycle linking to https://zeqond.com"
+  },
+  "link.item.label.Hulyas.org — Foundation": {
+    "message": "Hulyas.org - फाउंडेशन",
+    "description": "The label of footer link with label=Hulyas.org — Foundation linking to https://hulyas.org"
+  },
+  "link.item.label.GitHub — hulyasmath": {
+    "message": "गिटहब - हुल्यस्माथ",
+    "description": "The label of footer link with label=GitHub — hulyasmath linking to https://github.com/hulyasmath"
+  },
+  "copyright": {
+    "message": "कॉपीराइट © 2026 ज़ेक 1.287 हर्ट्ज़ लिमिटेड। सर्वाधिकार सुरक्षित।",
+    "description": "The footer copyright"
+  }
+}

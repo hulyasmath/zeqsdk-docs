@@ -1,0 +1,46 @@
+{
+  "title": {
+    "message": "지크 SDK",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "제크",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Learn": {
+    "message": "배우다",
+    "description": "Navbar item with label Learn"
+  },
+  "item.label.Build": {
+    "message": "짓다",
+    "description": "Navbar item with label Build"
+  },
+  "item.label.Reference": {
+    "message": "참조",
+    "description": "Navbar item with label Reference"
+  },
+  "item.label.Operate": {
+    "message": "작동하다",
+    "description": "Navbar item with label Operate"
+  },
+  "item.label.Languages": {
+    "message": "언어",
+    "description": "Navbar item with label Languages"
+  },
+  "item.label.Compliance": {
+    "message": "규정 준수",
+    "description": "Navbar item with label Compliance"
+  },
+  "item.label.Zeq State": {
+    "message": "Zeq 주",
+    "description": "Navbar item with label Zeq State"
+  },
+  "item.label.Pricing": {
+    "message": "가격",
+    "description": "Navbar item with label Pricing"
+  },
+  "item.label.zeq.dev": {
+    "message": "zeq.dev",
+    "description": "Navbar item with label zeq.dev"
+  }
+}

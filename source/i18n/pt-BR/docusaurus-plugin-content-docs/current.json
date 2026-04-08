@@ -1,0 +1,94 @@
+{
+  "version.label": {
+    "message": "Próximo",
+    "description": "The label for version current"
+  },
+  "sidebar.learnSidebar.category.Learn": {
+    "message": "Aprender",
+    "description": "The label for category 'Learn' in sidebar 'learnSidebar'"
+  },
+  "sidebar.learnSidebar.category.Concepts": {
+    "message": "Conceitos",
+    "description": "The label for category 'Concepts' in sidebar 'learnSidebar'"
+  },
+  "sidebar.buildSidebar.category.Quickstart": {
+    "message": "Início rápido",
+    "description": "The label for category 'Quickstart' in sidebar 'buildSidebar'"
+  },
+  "sidebar.buildSidebar.category.Language Clients": {
+    "message": "Clientes de idiomas",
+    "description": "The label for category 'Language Clients' in sidebar 'buildSidebar'"
+  },
+  "sidebar.buildSidebar.category.Domain Recipes": {
+    "message": "Receitas de Domínio",
+    "description": "The label for category 'Domain Recipes' in sidebar 'buildSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Protocols (234)": {
+    "message": "Protocolos (234)",
+    "description": "The label for category 'Protocols (234)' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.ZeqField Protocols (5)": {
+    "message": "Protocolos ZeqField (5)",
+    "description": "The label for category 'ZeqField Protocols (5)' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.ZeqField Protocols (5).link.generated-index.title": {
+    "message": "Protocolos ZeqField",
+    "description": "The generated-index page title for category 'ZeqField Protocols (5)' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.ZeqField Protocols (5).link.generated-index.description": {
+    "message": "Cinco protocolos. Um campo. A camada operacional do ZeqField – com fase bloqueada para 1,287 Hz.",
+    "description": "The generated-index page description for category 'ZeqField Protocols (5)' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Core Computation": {
+    "message": "Computação Central",
+    "description": "The label for category 'Core Computation' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Core Computation.link.generated-index.title": {
+    "message": "Computação Central",
+    "description": "The generated-index page title for category 'Core Computation' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Core Computation.link.generated-index.description": {
+    "message": "2 protocolos Zeq na família Core Computation.",
+    "description": "The generated-index page description for category 'Core Computation' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Machine Learning": {
+    "message": "Aprendizado de máquina",
+    "description": "The label for category 'Machine Learning' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Machine Learning.link.generated-index.title": {
+    "message": "Aprendizado de máquina",
+    "description": "The generated-index page title for category 'Machine Learning' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Machine Learning.link.generated-index.description": {
+    "message": "1 Protocolos Zeq da família Machine Learning.",
+    "description": "The generated-index page description for category 'Machine Learning' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Quantum Computing": {
+    "message": "Computação Quântica",
+    "description": "The label for category 'Quantum Computing' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Quantum Computing.link.generated-index.title": {
+    "message": "Computação Quântica",
+    "description": "The generated-index page title for category 'Quantum Computing' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Quantum Computing.link.generated-index.description": {
+    "message": "1 Protocolos Zeq da família Quantum Computing.",
+    "description": "The generated-index page description for category 'Quantum Computing' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Operators": {
+    "message": "Operadores",
+    "description": "The label for category 'Operators' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.API": {
+    "message": "API",
+    "description": "The label for category 'API' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.referenceSidebar.category.Core endpoints": {
+    "message": "Pontos de extremidade principais",
+    "description": "The label for category 'Core endpoints' in sidebar 'referenceSidebar'"
+  },
+  "sidebar.operateSidebar.category.Operate": {
+    "message": "Operar",
+    "description": "The label for category 'Operate' in sidebar 'operateSidebar'"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "link.title.SDK": {
+    "message": "SDK",
+    "description": "The title of the footer links column with title=SDK in the footer"
+  },
+  "link.title.Guides": {
+    "message": "ガイド",
+    "description": "The title of the footer links column with title=Guides in the footer"
+  },
+  "link.title.Resources": {
+    "message": "リソース",
+    "description": "The title of the footer links column with title=Resources in the footer"
+  },
+  "link.title.Ecosystem": {
+    "message": "生態系",
+    "description": "The title of the footer links column with title=Ecosystem in the footer"
+  },
+  "link.item.label.Quick Start": {
+    "message": "クイックスタート",
+    "description": "The label of footer link with label=Quick Start linking to /build/quickstart/introduction"
+  },
+  "link.item.label.Core Concepts": {
+    "message": "中心となる概念",
+    "description": "The label of footer link with label=Core Concepts linking to /learn/concepts/hulyapulse"
+  },
+  "link.item.label.Protocol Reference": {
+    "message": "プロトコルリファレンス",
+    "description": "The label of footer link with label=Protocol Reference linking to /reference/protocols"
+  },
+  "link.item.label.Medical Imaging": {
+    "message": "医用画像処理",
+    "description": "The label of footer link with label=Medical Imaging linking to /build/recipes/medical-imaging"
+  },
+  "link.item.label.Game Physics": {
+    "message": "ゲームの物理学",
+    "description": "The label of footer link with label=Game Physics linking to /build/recipes/game-physics"
+  },
+  "link.item.label.Emergency Systems": {
+    "message": "緊急システム",
+    "description": "The label of footer link with label=Emergency Systems linking to /build/recipes/emergency-systems"
+  },
+  "link.item.label.Zeq Paper (DOI)": {
+    "message": "Zeq ペーパー (DOI)",
+    "description": "The label of footer link with label=Zeq Paper (DOI) linking to https://doi.org/10.5281/zenodo.18158152"
+  },
+  "link.item.label.Framework Paper (DOI)": {
+    "message": "フレームワークペーパー (DOI)",
+    "description": "The label of footer link with label=Framework Paper (DOI) linking to https://doi.org/10.5281/zenodo.15825138"
+  },
+  "link.item.label.HULYAS.org": {
+    "message": "フリアス.org",
+    "description": "The label of footer link with label=HULYAS.org linking to https://hulyas.org"
+  },
+  "link.item.label.zeq.dev — Developer SDK": {
+    "message": "zeq.dev — 開発者 SDK",
+    "description": "The label of footer link with label=zeq.dev — Developer SDK linking to https://zeq.dev"
+  },
+  "link.item.label.zeq.me — Apps & Ecosystem": {
+    "message": "zeq.me — アプリとエコシステム",
+    "description": "The label of footer link with label=zeq.me — Apps & Ecosystem linking to https://zeq.me"
+  },
+  "link.item.label.HulyaPulse.com — The Frequency": {
+    "message": "HulyaPulse.com — 周波数",
+    "description": "The label of footer link with label=HulyaPulse.com — The Frequency linking to https://hulyapulse.com"
+  },
+  "link.item.label.1.287.com — The Discovery & Architecture": {
+    "message": "1.287.com — 発見とアーキテクチャ",
+    "description": "The label of footer link with label=1.287.com — The Discovery & Architecture linking to https://1.287.com"
+  },
+  "link.item.label.Zeqond.com — The 0.777 Clock Cycle": {
+    "message": "Zeqond.com — 0.777 クロック サイクル",
+    "description": "The label of footer link with label=Zeqond.com — The 0.777 Clock Cycle linking to https://zeqond.com"
+  },
+  "link.item.label.Hulyas.org — Foundation": {
+    "message": "Hulyas.org — 財団",
+    "description": "The label of footer link with label=Hulyas.org — Foundation linking to https://hulyas.org"
+  },
+  "link.item.label.GitHub — hulyasmath": {
+    "message": "GitHub — フリアスマス",
+    "description": "The label of footer link with label=GitHub — hulyasmath linking to https://github.com/hulyasmath"
+  },
+  "copyright": {
+    "message": "著作権 © 2026 Zeq 1.287 Hz 限定。無断転載を禁じます。",
+    "description": "The footer copyright"
+  }
+}

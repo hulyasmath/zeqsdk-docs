@@ -1,0 +1,86 @@
+{
+  "link.title.SDK": {
+    "message": "SDK",
+    "description": "The title of the footer links column with title=SDK in the footer"
+  },
+  "link.title.Guides": {
+    "message": "Führer",
+    "description": "The title of the footer links column with title=Guides in the footer"
+  },
+  "link.title.Resources": {
+    "message": "Ressourcen",
+    "description": "The title of the footer links column with title=Resources in the footer"
+  },
+  "link.title.Ecosystem": {
+    "message": "Ökosystem",
+    "description": "The title of the footer links column with title=Ecosystem in the footer"
+  },
+  "link.item.label.Quick Start": {
+    "message": "Schnellstart",
+    "description": "The label of footer link with label=Quick Start linking to /build/quickstart/introduction"
+  },
+  "link.item.label.Core Concepts": {
+    "message": "Kernkonzepte",
+    "description": "The label of footer link with label=Core Concepts linking to /learn/concepts/hulyapulse"
+  },
+  "link.item.label.Protocol Reference": {
+    "message": "Protokollreferenz",
+    "description": "The label of footer link with label=Protocol Reference linking to /reference/protocols"
+  },
+  "link.item.label.Medical Imaging": {
+    "message": "Medizinische Bildgebung",
+    "description": "The label of footer link with label=Medical Imaging linking to /build/recipes/medical-imaging"
+  },
+  "link.item.label.Game Physics": {
+    "message": "Spielphysik",
+    "description": "The label of footer link with label=Game Physics linking to /build/recipes/game-physics"
+  },
+  "link.item.label.Emergency Systems": {
+    "message": "Notfallsysteme",
+    "description": "The label of footer link with label=Emergency Systems linking to /build/recipes/emergency-systems"
+  },
+  "link.item.label.Zeq Paper (DOI)": {
+    "message": "Zeq-Papier (DOI)",
+    "description": "The label of footer link with label=Zeq Paper (DOI) linking to https://doi.org/10.5281/zenodo.18158152"
+  },
+  "link.item.label.Framework Paper (DOI)": {
+    "message": "Rahmenpapier (DOI)",
+    "description": "The label of footer link with label=Framework Paper (DOI) linking to https://doi.org/10.5281/zenodo.15825138"
+  },
+  "link.item.label.HULYAS.org": {
+    "message": "HULYAS.org",
+    "description": "The label of footer link with label=HULYAS.org linking to https://hulyas.org"
+  },
+  "link.item.label.zeq.dev — Developer SDK": {
+    "message": "zeq.dev – Entwickler-SDK",
+    "description": "The label of footer link with label=zeq.dev — Developer SDK linking to https://zeq.dev"
+  },
+  "link.item.label.zeq.me — Apps & Ecosystem": {
+    "message": "zeq.me – Apps & Ökosystem",
+    "description": "The label of footer link with label=zeq.me — Apps & Ecosystem linking to https://zeq.me"
+  },
+  "link.item.label.HulyaPulse.com — The Frequency": {
+    "message": "HulyaPulse.com – Die Frequenz",
+    "description": "The label of footer link with label=HulyaPulse.com — The Frequency linking to https://hulyapulse.com"
+  },
+  "link.item.label.1.287.com — The Discovery & Architecture": {
+    "message": "1.287.com – Die Entdeckung und Architektur",
+    "description": "The label of footer link with label=1.287.com — The Discovery & Architecture linking to https://1.287.com"
+  },
+  "link.item.label.Zeqond.com — The 0.777 Clock Cycle": {
+    "message": "Zeqond.com – Der 0,777-Taktzyklus",
+    "description": "The label of footer link with label=Zeqond.com — The 0.777 Clock Cycle linking to https://zeqond.com"
+  },
+  "link.item.label.Hulyas.org — Foundation": {
+    "message": "Hulyas.org – Stiftung",
+    "description": "The label of footer link with label=Hulyas.org — Foundation linking to https://hulyas.org"
+  },
+  "link.item.label.GitHub — hulyasmath": {
+    "message": "GitHub – hulyasmath",
+    "description": "The label of footer link with label=GitHub — hulyasmath linking to https://github.com/hulyasmath"
+  },
+  "copyright": {
+    "message": "Copyright © 2026 Zeq 1.287 Hz Limited. Alle Rechte vorbehalten.",
+    "description": "The footer copyright"
+  }
+}

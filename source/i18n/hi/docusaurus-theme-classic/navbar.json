@@ -1,0 +1,46 @@
+{
+  "title": {
+    "message": "ज़ेक एसडीके",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "ज़ेक",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Learn": {
+    "message": "सीखना",
+    "description": "Navbar item with label Learn"
+  },
+  "item.label.Build": {
+    "message": "निर्माण",
+    "description": "Navbar item with label Build"
+  },
+  "item.label.Reference": {
+    "message": "संदर्भ",
+    "description": "Navbar item with label Reference"
+  },
+  "item.label.Operate": {
+    "message": "प्रचालन",
+    "description": "Navbar item with label Operate"
+  },
+  "item.label.Languages": {
+    "message": "बोली",
+    "description": "Navbar item with label Languages"
+  },
+  "item.label.Compliance": {
+    "message": "अनुपालन",
+    "description": "Navbar item with label Compliance"
+  },
+  "item.label.Zeq State": {
+    "message": "ज़ेक राज्य",
+    "description": "Navbar item with label Zeq State"
+  },
+  "item.label.Pricing": {
+    "message": "मूल्य निर्धारण",
+    "description": "Navbar item with label Pricing"
+  },
+  "item.label.zeq.dev": {
+    "message": "zeq.dev",
+    "description": "Navbar item with label zeq.dev"
+  }
+}

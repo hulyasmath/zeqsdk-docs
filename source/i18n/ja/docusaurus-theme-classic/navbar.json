@@ -1,0 +1,46 @@
+{
+  "title": {
+    "message": "Zeq SDK",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "ゼク",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Learn": {
+    "message": "学ぶ",
+    "description": "Navbar item with label Learn"
+  },
+  "item.label.Build": {
+    "message": "建てる",
+    "description": "Navbar item with label Build"
+  },
+  "item.label.Reference": {
+    "message": "参照",
+    "description": "Navbar item with label Reference"
+  },
+  "item.label.Operate": {
+    "message": "操作する",
+    "description": "Navbar item with label Operate"
+  },
+  "item.label.Languages": {
+    "message": "言語",
+    "description": "Navbar item with label Languages"
+  },
+  "item.label.Compliance": {
+    "message": "コンプライアンス",
+    "description": "Navbar item with label Compliance"
+  },
+  "item.label.Zeq State": {
+    "message": "ゼク州",
+    "description": "Navbar item with label Zeq State"
+  },
+  "item.label.Pricing": {
+    "message": "価格設定",
+    "description": "Navbar item with label Pricing"
+  },
+  "item.label.zeq.dev": {
+    "message": "ゼク.dev",
+    "description": "Navbar item with label zeq.dev"
+  }
+}
