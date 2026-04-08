@@ -29,7 +29,21 @@ const config: Config = {
 
   i18n: {
     defaultLocale: "en",
-    locales: ["en"],
+    locales: ["en","ar","zh-Hans","es","fr","de","pt-BR","ja","ko","ru","hi","it"],
+    localeConfigs: {
+      en: { label: "English" },
+      ar: { label: "العربية", direction: "rtl" },
+      "zh-Hans": { label: "简体中文" },
+      es: { label: "Español" },
+      fr: { label: "Français" },
+      de: { label: "Deutsch" },
+      "pt-BR": { label: "Português" },
+      ja: { label: "日本語" },
+      ko: { label: "한국어" },
+      ru: { label: "Русский" },
+      hi: { label: "हिन्दी" },
+      it: { label: "Italiano" },
+    },
   },
 
   presets: [
@@ -54,8 +68,8 @@ const config: Config = {
     image: "img/og-image.png",
     colorMode: {
       defaultMode: "dark",
-      disableSwitch: true, // Zeq is always dark
-      respectPrefersColorScheme: false,
+      disableSwitch: false,
+      respectPrefersColorScheme: true,
     },
     navbar: {
       title: "Zeq SDK",
@@ -113,6 +127,10 @@ const config: Config = {
         {
           href: "https://zeq.dev",
           label: "zeq.dev",
+          position: "right",
+        },
+        {
+          type: "localeDropdown",
           position: "right",
         },
       ],

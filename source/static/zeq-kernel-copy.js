@@ -96,7 +96,7 @@
 
   function mount() {
     var host = document.getElementById('zeq-kernel-copy-mount');
-    if (!host || host.dataset.mounted === '1') return;
+    if (!host) return; if (host.dataset.mounted === '1' && host.children.length > 0) return;
     host.dataset.mounted = '1';
     // Parity with the home page hero copy box: header + warning + scrollable
     // live-rendered <pre> body — visible == copied (single source of truth).
@@ -170,7 +170,7 @@
   if (typeof window !== 'undefined') {
     var lastUrl = location.href;
     setInterval(function () {
-      if (location.href !== lastUrl) { lastUrl = location.href; setTimeout(mount, 50); }
+      if (location.href !== lastUrl) { lastUrl = location.href; setTimeout(mount, 50); } else { var h=document.getElementById("zeq-kernel-copy-mount"); if (h && h.children.length===0) { h.dataset.mounted=""; mount(); } }
     }, 400);
   }
 })();
