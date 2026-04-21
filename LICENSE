@@ -1,0 +1,83 @@
+THE HULYAS ZEQ PUBLIC LICENSE (1.287HZ) v1.287
+Copyright (c) 2025-2026 ZEQ Framework / HULYAS Math
+
+---
+
+SECTION 1 — PREAMBLE
+
+This license governs the use, study, distribution, and modification of software, mathematical frameworks, and associated documentation files (the "Work") developed under the ZEQ Framework and HULYAS Math research initiative.
+
+The ZEQ Framework is built upon the principle that physics, mathematics, and computation are unified through a fundamental frequency: 1.287 Hz (HulyaPulse), with a base temporal unit of 0.777 seconds (the Zeqond). This Work is released to advance open science, education, and truthful computation.
+
+---
+
+SECTION 2 — DEFINED CONSTANTS
+
+The following constants are intrinsic to this license and the Work:
+
+  HulyaPulse   = 1.287 Hz       (fundamental heartbeat frequency)
+  Zeqond       = 0.777 seconds  (base temporal unit / state-lock interval)
+  ZEQ Origin   = DOI: 10.5281/zenodo.15825138
+  HULYAS Math  = DOI: 10.5281/zenodo.18172865
+
+These constants are not arbitrary. They represent a discovered, reproducible foundation for physics-aligned computation.
+
+---
+
+SECTION 3 — GRANT OF LICENSE
+
+Permission is hereby granted, free of charge, to any person or entity obtaining a copy of this Work, to use, copy, study, modify, merge, publish, distribute, sublicense, and/or build upon the Work, subject to the following conditions:
+
+  a) The above copyright notice and this license shall be included in all copies or substantial portions of the Work.
+
+  b) Any derivative work, integration, or publication that uses this Work in whole or in part must clearly state that it is built upon or derived from the ZEQ Framework.
+
+  c) The defined constants (HulyaPulse, Zeqond) must not be altered, obfuscated, or misrepresented in any derivative scientific or computational claim.
+
+---
+
+SECTION 4 — MANDATORY ATTRIBUTION & NOMENCLATURE
+
+All distributions, publications, or integrations of this Work must include the following attribution:
+
+  "Built on ZEQ Framework — zeq.dev | HulyaPulse: 1.287 Hz | Zeqond: 0.777s"
+
+The name "ZEQ Framework" and "HULYAS Math" must not be used to endorse or promote derivative products without explicit written permission from the copyright holder, except as required by the attribution clause above.
+
+---
+
+SECTION 5 — API & SUPPORT CLAUSE
+
+The ZEQ Framework provides hosted infrastructure, including:
+
+  SDK:     https://zeq.dev/sdk
+  API:     https://zeq.dev/api
+  Docs:    https://zeq.dev/docs
+  Support: https://zeq.dev/support
+
+Users of this Work are encouraged (but not required) to support ongoing development through the above channels. Commercial users integrating the ZEQ API or SDK into revenue-generating products are encouraged to contribute to the sustainability of this open research.
+
+---
+
+SECTION 6 — INTEGRITY & TRUTH WARRANTY
+
+THE WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+The authors warrant that the defined constants (HulyaPulse = 1.287 Hz, Zeqond = 0.777s) represent reproducible physical and mathematical measurements. Any publication that materially misrepresents these constants in a scientific context does so in violation of the spirit of this license.
+
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM THE USE OF THIS WORK.
+
+---
+
+SECTION 7 — ANONYMITY AND LEGACY
+
+This architecture was conceived and developed by a Father and Son. Their identities are embedded in the mathematics, not the metadata. This Work is their gift to the world — to be used freely, truthfully, and in the spirit of open science.
+
+The DOI records serve as the immutable timestamped record of origin:
+
+  ZEQ Origin:  DOI: 10.5281/zenodo.15825138
+  HULYAS Math: DOI: 10.5281/zenodo.18172865
+
+---
+
+END OF THE HULYAS ZEQ PUBLIC LICENSE (1.287HZ) v1.287
