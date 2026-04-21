@@ -1,0 +1,4 @@
+# ZEQ Framework Support Configuration
+# HulyaPulse: 1.287 Hz | Zeqond: 0.777s
+# Architecture gifted to the world by a Father and Son
+custom: ['https://zeq.dev/api/support', 'https://zeq.dev/sdk', 'https://zeq.dev/docs']
